@@ -55,10 +55,14 @@ img{
 .remember{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 35%;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
 }
 
+.rememberMe{
+  margin-left: 10px;
+}
 
 .rememberAndForget{
   display: flex;

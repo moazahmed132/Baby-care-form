@@ -12,6 +12,11 @@ body{
   align-items: center;
   height: 100vh;
 }
+.title{
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
 .container{
   width: 80%;
   height: 60%;
@@ -22,7 +27,7 @@ body{
 box-shadow: 11px 12px 5px -8px rgba(209,190,209,0.58);
 }
 img{
-  height: 70%;
+  height: 60%;
 }
 .picture{
   display: flex;
@@ -55,10 +60,14 @@ img{
 .remember{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 35%;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
 }
 
+.rememberMe{
+  margin-left: 10px;
+}
 
 .rememberAndForget{
   display: flex;
@@ -72,7 +81,7 @@ img{
 .input{
   /* padding: 15px 30% 15px 15px; */
   width: 80%;
-  padding: 15px 10px;
+  padding: 20px 10px;
   border-radius: 10px;
   border-color: #BA68C8;
   color: #BA68C8;  
@@ -92,7 +101,9 @@ img{
   color:white;
   /* padding: 2% 28%; */
   width: 80%;
-  padding: 10px 0;
+  padding: 15px 0;
   border-radius: 10px;
-  font-size: large;  
+  font-size: x-large;
+  font-weight: bold;
 }
+

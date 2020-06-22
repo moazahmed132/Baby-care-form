@@ -83,6 +83,7 @@ img{
   /* padding: 15px 30% 15px 15px; */
   width: 80%;
   padding: 20px 10px;
+  border-style: solid;
   border-radius: 10px;
   border-color: #BA68C8;
   color: #BA68C8;  
@@ -117,6 +118,7 @@ input[type="checkbox"]{
   border-radius: 10px;
   font-size: x-large;
   font-weight: bold;
+  border-style: solid;
 }
 
 @media screen and (max-width: 1480px){
